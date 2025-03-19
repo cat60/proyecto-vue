@@ -7,7 +7,8 @@
 </div>
 </template>
 <script setup>
-import Sidebar from '../components/Sidebar.vue'</script>
+import Sidebar from '../components/Sidebar.vue'
+</script>
 <style>
 .container{
   display: flex;

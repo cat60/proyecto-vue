@@ -6,11 +6,13 @@
         <label for="nombre">Nombre:</label>
         <Field type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" />
         <ErrorMessage name="nombre"></ErrorMessage>
+
       </div>
       <div class="form">
         <label for="correo">Correo:</label>
         <Field type="email" name="email" id="correo" placeholder="ingrese su email" />
         <ErrorMessage name="email"></ErrorMessage>
+
       </div>
       <div class="form">
         <button type="submit">Registrar</button>
@@ -21,9 +23,10 @@
 
 <script setup>
 import { Form, Field, ErrorMessage} from 'vee-validate';
-import { schema } from '../schemas/validationSchema';
+import { schema } from '../schemas/validationSchema'
+
 const onSubmit = () => {
-  console.log('Se ha enviado el formulario');
+  console.log('Se ha enviado el formulario')
 }
 </script>
 

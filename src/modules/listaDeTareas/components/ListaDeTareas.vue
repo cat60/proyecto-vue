@@ -1,7 +1,7 @@
 ><template>
   <div>
     <h2>Lista de Tareas</h2>
-    <input type="text" v-model="nuevaTarea" @keyup.enter="addTarea">
+    <input type="text" name="tarea" v-model="nuevaTarea" @keyup.enter="addTarea">
     <ul>
       <li v-for="(tarea, index) in tareas" :key="index">
       {{ tarea }}
